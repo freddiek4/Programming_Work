@@ -1,0 +1,10 @@
+Wrapper Function
+
+You are ordering a pizza.
+	•	You don’t care how the pizza is made (the dough, the sauce, the toppings).
+	•	You just tell the pizza shop your order, and they do the hard work of making it.
+
+The pizza shop is like the wrapper function:
+	• takes the request 
+	•	passes it to chef who actually makes the pizza (the hard work)
+	•	then the pizza shop hands the finished pizza back to you.
