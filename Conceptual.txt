@@ -8,3 +8,40 @@ The pizza shop is like the wrapper function:
 	• takes the request 
 	•	passes it to chef who actually makes the pizza (the hard work)
 	•	then the pizza shop hands the finished pizza back to you.
+
+
+String Streams
+
+string streams are like a bead kit where you string beads together to make a necklace:
+	•	You choose beads (words and numbers) and slide them onto a string.
+	•	The string holds them in the order you add them, making it easy to see the sequence.
+	•	Once done, you have a necklace (a complete sentence or text) that you can show off or use.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
