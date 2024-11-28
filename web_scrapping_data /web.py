@@ -8,10 +8,6 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import normalize
 from scipy.cluster.hierarchy import linkage, dendrogram, fcluster
 
-
-
-# a, i
-
 def get_movie_links():
     base_url = "https://www.imsdb.com/alpha.php"
     response = requests.get(base_url)
@@ -21,8 +17,6 @@ def get_movie_links():
     movie_links = tree.xpath("//a[contains(@href, '/Movie Scripts/')]/@href")
     movie_links = [f"https://www.imsdb.com{link}" for link in movie_links]
     return movie_links
-
-
 movie_links = get_movie_links()
 print(f"Number of movie links found: {len(movie_links)}")
 Number of movie links found: 1290
@@ -56,7 +50,6 @@ def fetch_script(link):
         "script_date": script_date,
         "script": script_text 
     }
-
 link = '/Movie Scripts/10 Things I Hate About You Script.html'
 fetch_movie = fetch_script(link)
 print(fetch_movie)  
